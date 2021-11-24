@@ -1,0 +1,54 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+header{
+    width:100vw;
+    height:80vh;
+    background-image: url('img/star\ uó\ topo.png');
+    background-repeat:no-repeat;
+    background-size:cover;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    position:relative;
+}
+.container-header{
+    width:73vw;
+    height:13vh;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    position:absolute;
+    top:43vh;
+    left:19vw;
+}
+.fundo-header{
+    width: 100vw;
+    height:80vh;
+}
+.star-header{
+    width:25vw;
+    height:12vh;
+}
+.wars-header{
+    width:25vw;
+    height:12vh;
+}
+.kylo-container{
+    position:absolute;
+    top:2vh;
+    left:11vw;
+}
+.kylo-header{
+    width:70vw;
+    height:95vh;
+}
+.menu-header{
+    width:8vw;
+    height:15vh;
+    position:absolute;
+    top:60vh;
+    left:70vw
+}
