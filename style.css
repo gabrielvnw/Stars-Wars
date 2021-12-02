@@ -4,6 +4,7 @@
     margin:0;
     box-sizing:border-box;
     font-family: 'Open Sans', sans-serif;
+    
 }
 header{
     width:100%;
@@ -114,7 +115,7 @@ header{
     bottom:100vh;
 }
 .h2-download{
-    width:48%;
+    width:55%;
     color:#fff;
     font-size:2.2rem;
     font-weight:normal;
@@ -244,6 +245,7 @@ li{
     padding-bottom:1vh;
 }
 li:hover{
+    cursor: pointer;
     background-color:#d74430;
     color:white;
 }
@@ -290,4 +292,125 @@ li:hover{
 .hierarquia-img{
     width:85vw;
     height:94vh;
+}
+.efeito{
+    width:44%;
+    height:51vh;
+    opacity:0%;
+    position:absolute;
+    top:29.5vh;
+    background-color:#A43D2F;
+}
+.borda{
+    width:4vw;
+    height:7vh;
+    border-top:3px solid white;
+    border-left:3px solid white;
+    margin:2vh 0 0 2vw;
+}
+.h2-hover{
+    font-size:2rem;
+    color: white;
+    margin: 2vh 0 3vh 5vw;
+}
+.p-hover{
+    font-size:1.3rem;
+    color: white;
+    margin: 2vh 1vw 6vh 5vw;
+}
+.btn-hover{
+    width:7vw;
+    height:4vh;
+    margin:5vh 0 0 5vw;
+    cursor:pointer;
+    background-color:transparent;
+    color:white;
+    border:2px solid white;
+}
+.borda2{
+    width:4vw;
+    height:7vh;
+    border-bottom:3px solid white;
+    border-right:3px solid white;
+    margin:0 0 2vh 38vw;
+}
+.efeito:hover{
+    opacity:80%;
+}
+.efeito-b{
+    width:21.5vw;
+    height:26vh;
+    opacity:0%;
+    background-color:#A43D2F;
+    position:absolute;
+    top:29vh;
+}
+.borda-b{
+    width:3vw;
+    height:4vh;
+    border-top:3px solid white;
+    border-left:3px solid white;
+    margin:1.5vh 0 0 1vw;
+}
+.h2-hover-b{
+    color: white;
+    margin: -3vh 0 2vh 3vw;
+}
+.p-hover-b{
+    color: white;
+    margin: -1vh 1vw 2vh 3vw;
+}
+.btn-hover-b{
+    width:7vw;
+    height:4vh;
+    margin:1vh 0 0 3vw;
+    cursor:pointer;
+    background-color:transparent;
+    color:white;
+    border:2px solid white;
+}
+.borda2-b{
+    width:3vw;
+    height:4vh;
+    border-bottom:3px solid white;
+    border-right:3px solid white;
+    margin:0 0 2vh 17.5vw;
+}
+.efeito-b:hover{
+    opacity:80%;
+}
+.efeito-c{
+    width:21.5vw;
+    height:26vh;
+    opacity:0%;
+    background-color:#A43D2F;
+    position:absolute;
+    top:29vh;
+    left:70.7vw;
+}
+.efeito-c:hover{
+    opacity:80%;
+}
+.efeito-d{
+    width:21.5vw;
+    height:26vh;
+    opacity:0%;
+    background-color:#A43D2F;
+    position:absolute;
+    top:54vh;
+}
+.efeito-d:hover{
+    opacity:80%;
+}
+.efeito-e{
+    width:21.5vw;
+    height:26vh;
+    opacity:0%;
+    background-color:#A43D2F;
+    position:absolute;
+    top:54vh;
+    left:70.7vw;
+}
+.efeito-e:hover{
+    opacity:80%;
 }
