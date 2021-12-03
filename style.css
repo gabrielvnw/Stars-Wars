@@ -284,15 +284,6 @@ li:hover{
     width:50%;
     height:50%;
 }
-.hierarquia-div{
-    width:86vw;
-    height:95vh;
-    margin:5vh 7vw 0 7vw;
-}
-.hierarquia-img{
-    width:85vw;
-    height:94vh;
-}
 .efeito{
     width:44%;
     height:51vh;
@@ -413,4 +404,13 @@ li:hover{
 }
 .efeito-e:hover{
     opacity:80%;
+}
+.hierarquia-div{
+    width:86vw;
+    height:95vh;
+    margin:5vh 7vw 0 7vw;
+}
+.hierarquia-img{
+    width:85vw;
+    height:94vh;
 }
