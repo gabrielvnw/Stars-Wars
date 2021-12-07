@@ -8,6 +8,8 @@
 header{
     width:100%;
     height:80vh;
+    background-image:url('./img/star\ uó\ topo.png');
+    background-repeat:no-repeat;
     background-size:cover;
     display:flex;
     justify-content:center;
@@ -155,7 +157,7 @@ header{
     transition:all .5s ease;
 }
 .download:hover::before{
-    height:350%;
+    height:450%;
 }
 .sobreojogo-central{
     width:50vw;
@@ -567,19 +569,19 @@ li:hover{
 /*------MOBILE------*/
 @media(max-width:375px){
     header{
-        width:120vw;
-        height:30vh;
+        width:100%;
+        height:25vh;
         position:relative;
     }
     .fundo-header{
-        width:120vw;
+        width:100%;
         height:30vh;
     }
     .container-header{
-        width:89vw;
+        width:80vw;
         position:absolute;
-        top:12.5vh;
-        left:20vw;
+        top:9vh;
+        left:11vw;
     }
     .star-header{
         width:30vw;
@@ -587,19 +589,19 @@ li:hover{
     }
     .kylo-container{
         position:absolute;
-        left:14vw;
-        top:1vh;
+        left:10vw;
+        top:0.5vh;
     }
     .kylo-header{
-        width:80vw;
-        height:35vh;
+        width:65vw;
+        height:30vh;
     }
     .menu-header{
         width:22vw;
         height:15vh;
         position:absolute;
-        top:22vh;
-        left:75vw;
+        top:19vh;
+        left:63vw;
     }
     .menu-header-h2{
         font-weight:normal;
@@ -641,59 +643,122 @@ li:hover{
         height:80vh;
     }
     .download-central{
-        width:70vw;
-        height:55vh;
+        width:57vw;
+        height:50vh;
         position:absolute;
-        left:37vw;
-        bottom:90vh;
+        left:35vw;
+        bottom:88vh;
+        background-size:cover;
     }
     .h2-download{
-        width:50%;
+        width:60%;
         color:#fff;
         font-size:1.8rem;
         position:absolute;
         top:8vh;
-        left:19vw;
+        left:14vw;
     }
     .p-download{
-        font-size:1rem;
+        font-size:0.9rem;
         position:absolute;
         top:25vh;
-        left:8vw;
+        left:5vw;
     }
     .download{
         width:40vw;
         position:absolute;
         top:41vh;
-        left:15vw;
+        left:9.5vw;
     }
     .download:hover{
         transform:scale(1.1);
     }
     .sobreojogo-central{
-        width:70vw;
+        width:57vw;
         height:26vh;
         display:flex;
         align-items: flex-end;
         position:absolute;
-        top:60vh;
-        left:37vw;
-    }
-    .h2-div{
-        width:30vw;
-        height:5vh;
-        position:absolute;
-        top:50vh;
-        left:60vw;
-        border: #CD0000 solid;
-    }
-    .p-div{
-        width:50vw;
-        position:absolute;
-        top:40vh;
+        top:59vh;
+        left:35vw;
     }
     .sobreojogo-img{
-        width:70vw;
-        height:23vh;
+        width:57vw;
+        height:20vh;
     }
+    .h2-div{
+        width:37vw;
+        height:5vh;
+        position:absolute;
+        top:30vh;
+        left:20vw;
+    }
+    .sobreojogo-h2{
+        font-size:1.1rem;
+    }
+    .sobreojogo-linha{
+        width:45vw;
+        border:2px solid black;
+        background-color:#000;
+        position:absolute;
+        top:4vh;
+        right:0vw;
+    }
+    .p-div{
+        width:87vw;
+        position:absolute;
+        top:37vh;
+        right:0vw;
+    }
+    .linha-central{
+        position:absolute;
+        top:125vh;
+        left:10vw;
+    }
+    .lord-cont{
+        width:55vw;
+        height:33vh;
+        position:absolute;
+        top:132vh;
+        left:2vw;
+    }
+    .lord{
+        width:52vw;
+        height:32vh;
+    }
+    .rey-cont{
+        position:absolute;
+        top:132vh;
+        left:63vw;
+    }
+    .rey{
+        width:33vw;
+        height:33vh;
+    }
+    .lista-central{
+        width:40vw;
+        height:32vh;
+        position:absolute;
+        top:133vh;
+        left:30vw;
+        z-index:1;
+    }
+    .estrutura{
+        font-size:1.2rem;
+        font-weight:normal;
+        text-align:right;
+    }
+    li{
+        font-size:0.5rem;
+        padding:0.5vh;
+    }
+    .atributos{
+        position:absolute;
+        top:182.5vh;
+    }
+    .atributos-h2{
+        font-size:1.1rem;
+        margin:7vh 0 0 35vw;
+    }
+    
 }
