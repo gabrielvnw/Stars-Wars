@@ -554,7 +554,7 @@ li:hover{
     width:15vw;
     margin:3vh 0 3vh 0;
 }
-.darthvader-di{
+.darthvader-div{
     width:40vw;
     height:90vh;
     position:absolute;
@@ -833,7 +833,7 @@ li:hover{
         width:80vw;
         height:30vh;
         position:absolute;
-        top:45vh;
+        top:44vh;
         left:10vw;
     }
     .borda-b{
@@ -866,21 +866,21 @@ li:hover{
         width:80vw;
         height:30vh;
         position:absolute;
-        top:74.5vh;
+        top:73.5vh;
         left:10vw;
     }
     .efeito-d{
         width:80vw;
         height:30vh;
         position:absolute;
-        top:104.5vh;
+        top:103.5vh;
         left:10vw;
     }
     .efeito-e{
         width:80vw;
         height:30vh;
         position:absolute;
-        top:134.5vh;
+        top:133.5vh;
         left:10vw;
     }
     .capapreta-div{
