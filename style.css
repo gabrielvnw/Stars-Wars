@@ -554,7 +554,7 @@ li:hover{
     width:15vw;
     margin:3vh 0 3vh 0;
 }
-.darthvader-div{
+.darthvader-di{
     width:40vw;
     height:90vh;
     position:absolute;
@@ -567,7 +567,8 @@ li:hover{
 }
 
 /*------MOBILE------*/
-@media(max-width:375px){
+
+@media(max-width:420px){
     header{
         width:100%;
         height:25vh;
@@ -691,7 +692,7 @@ li:hover{
         height:5vh;
         position:absolute;
         top:30vh;
-        left:20vw;
+        left:26vw;
     }
     .sobreojogo-h2{
         font-size:1.1rem;
@@ -702,10 +703,10 @@ li:hover{
         background-color:#000;
         position:absolute;
         top:4vh;
-        right:0vw;
+        right:6.5vw;
     }
     .p-div{
-        width:87vw;
+        width:86vw;
         position:absolute;
         top:37vh;
         right:0vw;
@@ -753,12 +754,238 @@ li:hover{
         padding:0.5vh;
     }
     .atributos{
+        height:225vh;
         position:absolute;
         top:182.5vh;
     }
     .atributos-h2{
         font-size:1.1rem;
-        margin:7vh 0 0 35vw;
+        margin:9vh 0 0 35vw;
     }
-    
+    .grid-atributos{
+        display: flex;
+        flex-direction: column;
+    }
+    .jedi{
+        width:80vw;
+        height:30vh;
+        margin: 0 0 0 3vw;
+    }
+    .storm{
+        width:80vw;
+        height:30vh;
+        margin: 0 0 0 3vw;
+    }
+    .efeito{
+        width:80vw;
+        height:30vh;
+        position:absolute;
+        top:15vh;
+        left:10vw;
+    }
+    .borda{
+        width:10vw;
+    }
+    .h2-hover{
+        width:40%;
+        font-size:1rem;
+        margin:-5vh 0 0vh 7vw;
+    }
+    .p-hover{
+        width:80%;
+        font-size:0.9rem;
+        margin:2vh 0 0vh 7vw;
+    }
+    .btn-hover{
+        width:30vw;
+        height:5vh;
+        position:absolute;
+        top:18vh;
+    }
+    .borda2{
+        width:10vw;
+        position:absolute;
+        top:22vh;
+        left:30vw;
+    }
+    .hierarquia-div{
+        width:97vw;
+        height:35vh;
+        position:absolute;
+        top:165vh;
+        left:-7vw;
+    }
+    .hierarquia-img{
+        width:100vw;
+        height:35vh;
+    }
+    .comojogar-div{
+        width:37vw;
+        height:6vh;
+        position:absolute;
+        top:214vh;
+        left:50vw;
+    }
+    .comojogar-h2{
+        font-size:1.1rem;
+    }
+    .efeito-b{
+        width:80vw;
+        height:30vh;
+        position:absolute;
+        top:45vh;
+        left:10vw;
+    }
+    .borda-b{
+        width:10vw;
+    }
+    .h2-hover-b{
+        width:40%;
+        font-size:1rem;
+        margin:-2vh 0 0vh 7vw;
+    }
+    .p-hover-b{
+        width:80%;
+        font-size:0.9rem;
+        margin:2vh 0 0vh 7vw;
+    }
+    .btn-hover-b{
+        width:30vw;
+        height:5vh;
+        position:absolute;
+        top:18vh;
+        left:2vw;
+    }
+    .borda2-b{
+        width:10vw;
+        position:absolute;
+        top:24vh;
+        left:49vw;
+    }
+    .efeito-c{
+        width:80vw;
+        height:30vh;
+        position:absolute;
+        top:74.5vh;
+        left:10vw;
+    }
+    .efeito-d{
+        width:80vw;
+        height:30vh;
+        position:absolute;
+        top:104.5vh;
+        left:10vw;
+    }
+    .efeito-e{
+        width:80vw;
+        height:30vh;
+        position:absolute;
+        top:134.5vh;
+        left:10vw;
+    }
+    .capapreta-div{
+        width:85vw;
+        height:75vh;
+        position:absolute;
+        bottom:11vh;
+        left:-39vw;
+    }
+    .capapreta-img{
+        width:98vw;
+        height:83vh;
+    }
+    .buttons{
+        width:45vw;
+        height:60vh;
+        display:flex;
+        flex-direction:column;
+        position:absolute;
+        top:-28vh;
+        left:50vw;
+    }
+    .btn-div{
+        width:100%;
+        margin:0 0 2vh 0;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+    }
+    .btn{
+        width:35vw;
+        height:6vh;
+        font-size:0.9rem;
+        font-weight:300;
+        margin:-1vh 0 0 0;
+    }
+    .p-btn-a{
+        width:80%;
+        margin:-1vh 0 0 0;
+    }
+    .hr-btn-a{
+        width:15vw;
+        margin:0vh 0 0 0vw;
+    }
+    .p-btn-b{
+        width:44%;
+        margin:-1vh 0 0 0;
+    }
+    .hr-btn-b{
+        width:15vw;
+        margin:0vh 0 0 0vw;
+    }
+    .section-final{
+        width:100%;
+        height:95vh;
+        background-color:#FF5A56;
+        position:absolute;
+        top:479vh;
+    }
+    .apps{
+        width:85vw;
+        height:70vh;
+        display:flex;
+        align-items:center;
+        flex-direction:column;
+        margin:10vh 0 2vh 7vw;
+    }
+    .h2-footer{
+        font-weight:900;
+        font-size:2.8rem;
+        color: white;
+        padding:0 0 2vh 0;
+    }
+    .p-footer{
+        width:90%;
+        font-weight:300;
+        font-size:0.8rem;
+        color:white;
+    }
+    .lojadeapp-div{
+        width:100%;
+        height:10vh;
+        padding: 3vh 0 4vh 0;
+    }
+    .lojadeapp{
+        width:49%;
+        height:6vh;
+    }
+    .hr-footer{
+        width:77vw;
+        border:2px solid #D74430;
+    }
+    .starwars{
+        width:40vw;
+        margin:3vh 0 3vh 0;
+    }
+    .darthvader-div{
+        width:70vw;
+        height:50vh;
+        position:absolute;
+        top:75vh;
+        left:8vw;
+    }
+    .darthvader-img{
+        width:73vw;
+        height:50vh;
+    }
 }
